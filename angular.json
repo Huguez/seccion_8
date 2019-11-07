@@ -86,12 +86,9 @@
                             "src/assets"
                         ],
                         "styles": [
-                            "src/styles.css",
-                            "assets/font-awesome/css/fontawesome.min.css"
+                            "src/styles.css"
                         ],
-                        "scripts": [
-                            "assets/tether/tether.js"
-                        ]
+                        "scripts": []
                     }
                 },
                 "lint": {
