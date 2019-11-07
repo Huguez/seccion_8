@@ -11,7 +11,7 @@
 <button type="button" class="btn btn-light" (click)="alerta = 'alert-light' ">Light</button> &nbsp;
 <button type="button" class="btn btn-dark" (click)="alerta = 'alert-dark' ">Dark</button> &nbsp;
 
-<br><br><br>
+<br><br>
 
 <h3 [ngClass]="{'text-danger': propiedades.danger, 'text-info': !propiedades.danger }">
     Hola Mundo by Huguez!!!!
@@ -33,3 +33,4 @@ Cambiar
     <span *ngIf="!loading"> Guardar Cambios </span>
     <span *ngIf="loading"> Guardando... </span>
 </button>
+<br>

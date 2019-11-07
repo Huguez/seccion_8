@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-css',
   template: `
-    <hr>
+    <br>
     <p>
       css works!
     </p>
-    <hr>
+    <br>
   `,
   styles: [ `p{
     color:red;
